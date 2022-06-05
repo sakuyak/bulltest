@@ -11,40 +11,39 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
-        <header className="flex items-center justify-between py-10">
-          <div>
-            <Link href="/" aria-label={siteMetadata.headerTitle}>
-              <div className="flex items-center justify-between">
+        <header className="container mx-auto flex max-w-3xl items-center justify-between px-4 py-8 md:px-0 xl:py-10">
+          <div className="flex items-center text-base leading-5">
+            <Link
+              href="/"
+              aria-label={siteMetadata.headerTitle}
+              className="hover:text-primary-600 hover:no-underline dark:hover:fill-primary-300 dark:hover:text-primary-700 dark:hover:text-primary-300"
+            >
+              <div className="flex items-center justify-between bg-transparent">
                 <div className="mr-3">
-                  <Logo />
+                  <Logo className="w-12 fill-current lg:w-16" />
                 </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
-                  </div>
-                ) : (
-                  siteMetadata.headerTitle
-                )}
+                <div className="hidden pr-2 font-semibold md:block">Home</div>
               </div>
             </Link>
-          </div>
-          <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
-              {headerNavLinks.map((link) => (
-                <Link
-                  key={link.title}
-                  href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
-                >
-                  {link.title}
-                </Link>
-              ))}
+            <div className="">
+              {headerNavLinks.map((link) => {
+                return (
+                  <Link
+                    key={link.title}
+                    href={link.href}
+                    className="px-2 font-semibold text-gray-900 hover:text-blue-700 hover:no-underline dark:text-gray-100 dark:hover:text-blue-400 sm:px-3"
+                  >
+                    {link.title}
+                  </Link>
+                )
+              })}
             </div>
-            <ThemeSwitch />
-            <MobileNav />
+            {/* <MobileNav /> */}
           </div>
+
+          <ThemeSwitch />
         </header>
-        <main className="mb-auto">{children}</main>
+        <main className="mb-auto px-4 lg:px-6">{children}</main>
         <Footer />
       </div>
     </SectionContainer>

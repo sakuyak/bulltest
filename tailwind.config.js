@@ -28,13 +28,13 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
-        gray: colors.neutral,
+        primary: colors.blue,
+        gray: colors.gray,
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.gray.900'),
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -87,11 +87,11 @@ module.exports = {
             },
             hr: { borderColor: theme('colors.gray.200') },
             'ol li::marker': {
-              fontWeight: '600',
-              color: theme('colors.gray.500'),
+              fontWeight: '400',
+              color: theme('colors.gray.900'),
             },
             'ul li::marker': {
-              backgroundColor: theme('colors.gray.500'),
+              backgroundColor: theme('colors.gray.900'),
             },
             strong: { color: theme('colors.gray.600') },
             blockquote: {
@@ -139,10 +139,10 @@ module.exports = {
             hr: { borderColor: theme('colors.gray.700') },
             'ol li::marker': {
               fontWeight: '600',
-              color: theme('colors.gray.400'),
+              color: theme('colors.gray.100'),
             },
             'ul li::marker': {
-              backgroundColor: theme('colors.gray.400'),
+              backgroundColor: theme('colors.gray.100'),
             },
             strong: { color: theme('colors.gray.100') },
             thead: {
@@ -164,5 +164,9 @@ module.exports = {
       }),
     },
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('tailwind-fontawesome'),
+  ],
 }
