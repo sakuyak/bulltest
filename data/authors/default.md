@@ -1,5 +1,5 @@
 ---
-name: Matt Galligan
+name: Bigbull
 avatar: /static/images/avatar.jpg
 occupation: Co-founder & CEO
 company: KapitalCrypto
