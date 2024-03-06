@@ -2,18 +2,18 @@
 name: Matt Galligan
 avatar: /static/images/avatar.jpg
 occupation: Co-founder & CEO
-company: XMTP Labs
-twitter: https://twitter.com/mg
-linkedin: https://www.linkedin.com/mattgalligan
-github: https://github.com/galligan
+company: KapitalCrypto
+twitter: https://twitter.com/mKapitalCrypto
+linkedin: https://www.linkedin.com/
+github: https://github.com/
 ---
 
 ## My links
 
-- [Twitter](https://twitter.com/mg)
+- [Twitter](https://twitter.com/KapitalCrypto)
 - [GitHub](https://github.com/galligan)
 - [Reddit](https://reddit.com/u/mg0716)
-- [galligan.eth](https://app.ens.domains/name/galligan.eth/details)
+- [galligan.eth](https://bigbull.eth)
 
 ## About this blog
 
