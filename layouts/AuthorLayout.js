@@ -25,19 +25,20 @@ export default function AuthorLayout({ children, frontMatter }) {
               />
             </div>
             <div className="prose max-w-none flex-1 py-0 dark:prose-dark">
-              <h2>Hi, I'm Matt Galligan (aka mg)</h2>
+              <h2>Hi, I'm Bigbull (aka mg)</h2>
               <p>
-                I’m a dad, a Midwesterner living on the East Coast, a designer, craft beer & coffee
-                lover, GIF evangelist, and generally into all things techy.
+              I’m a into web3 and crypto since 2019 
+                and in Q4 2023 won the election to be 
+                a 2024 Steward in the Governance Working 
+                Group of the ApeCoin DAO.
+                I am also a member of the 
+                Bull Council of BOTB. 
               </p>
               <p>
-                Most of my professional time is dedicated to the company I{' '}
-                <Link href="https://blog.xmtp.com/hello-world/">co-founded</Link>{' '}
-                <Link href="https://xmtp.com/">XMTP Labs</Link> with my long-time friend,{' '}
-                <Link href="https://twitter.com/shanemac">Shane Mac</Link>. We're building a web3
-                messaging protocol for wallet-to-wallet communication.
+              I have also invested in various private rounds in the 
+              Crypto space, as well as invested in other companies unrelated to crypto. 
               </p>
-              <p>
+              {/* <p>
                 Previously I had co-founded{' '}
                 <Link href="https://medium.com/interchange/introducing-interchange-from-the-picks-shovels-co-ea891352eede">
                   The Picks & Shovels Co.
@@ -48,7 +49,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 <Link href="https://www.youtube.com/watch?v=VwnjfEaaMvg">SimpleGeo</Link>
                 {', and '}
                 <Link href="https://www.youtube.com/watch?v=KryicDrVUYU&t=93s">Socialthing</Link>.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="prose max-w-none pt-0 pb-8 dark:prose-dark">{children}</div>

@@ -23,10 +23,10 @@ export default function Home({ posts }) {
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="title">
             <span>Hi, I'm </span>
-            <span className="block after:content-['_👋🏼'] sm:inline">Matt Galligan</span>
+            <span className="block after:content-['_🐂'] sm:inline">Bigbull</span>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            I like to build things with technology, and write sometimes.
+          I love Governance in DAOs and love to explore new concepts and ideas with an open and curious mind. 
           </p>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             <span className="after:content-['_']">You can learn </span>
@@ -41,12 +41,12 @@ export default function Home({ posts }) {
             <Link
               rel="me"
               className="font-semibold text-sky-500 underline hover:text-sky-300 dark:text-sky-400 dark:hover:text-sky-200"
-              href="https://twitter.com/mg"
+              href="https://twitter.com/KapitalCrypto"
             >
               Twitter
             </Link>
             <span className="after:content-['_']">, </span>
-            <Link
+            {/* <Link
               rel="me"
               className="font-semibold text-purple-800 underline hover:text-purple-500 dark:text-purple-500 dark:hover:text-purple-300"
               href="https://github.com/galligan"
@@ -60,12 +60,12 @@ export default function Home({ posts }) {
               href="https://reddit.com/u/mg0716"
             >
               Reddit
-            </Link>
+            </Link> */}
             <span className="after:content-['_']">, and </span>
             <Link
               rel="me"
               className="font-semibold text-slate-600 underline hover:text-slate-400 dark:text-slate-400 dark:hover:text-slate-200"
-              href="https://app.ens.domains/name/galligan.eth/details"
+              href="https://bigbull.eth"
             >
               Ethereum
             </Link>
