@@ -6,17 +6,17 @@ const siteMetadata = {
     'Assorted writings and ramblings. Thoughts, resources, and essays about web3, product design, and more.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://mattgalligan.com',
-  siteRepo: 'https://github.com/galligan/web/',
+  siteUrl: 'https://bigbull.eth',
+  siteRepo: 'https://github.com/',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'matt.galligan@gmail.com',
-  github: 'https://github.com/galligan',
-  twitter: 'https://twitter.com/mg',
+  email: '',
+  github: 'https://github.com/',
+  twitter: 'https://twitter.com/',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/mattgalligan',
+  linkedin: 'https://www.linkedin.com/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
