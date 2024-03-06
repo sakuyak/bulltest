@@ -13,4 +13,3 @@ github: https://github.com/
 - [Twitter](https://twitter.com/KapitalCrypto)
 - [Bigbull.eth](https://bigbull.eth)
 
-## About this blog
