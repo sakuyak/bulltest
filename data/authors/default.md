@@ -11,8 +11,8 @@ github: https://github.com/
 ## My links
 
 - [Twitter](https://twitter.com/KapitalCrypto)
-<!-- - [GitHub](https://github.com/galligan)
-- [Reddit](https://reddit.com/u/mg0716) -->
+- [GitHub](https://github.com/galligan)
+- [Reddit](https://reddit.com/u/mg0716)
 - [galligan.eth](https://bigbull.eth)
 
 ## About this blog
