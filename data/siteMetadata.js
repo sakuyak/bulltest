@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Matt Galligan',
-  author: 'Matt Galligan',
-  headerTitle: 'Matt Galligan',
+  title: 'Bigbull',
+  author: 'Bigbull',
+  headerTitle: 'Bigbull',
   description:
     'Assorted writings and ramblings. Thoughts, resources, and essays about web3, product design, and more.',
   language: 'en-us',
