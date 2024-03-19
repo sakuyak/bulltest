@@ -25,7 +25,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               />
             </div>
             <div className="prose max-w-none flex-1 py-0 dark:prose-dark">
-              <h2>Hi, I'm Bigbull (aka mg)</h2>
+              <h2>Hi, I'm Bigbull</h2>
               <p>
               I’m a into web3 and crypto since 2019 
                 and in Q4 2023 won the election to be 
