@@ -34,7 +34,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </dd>
                   <dt className="sr-only">Written by</dt>
                   <dd className="inline text-base font-medium leading-6 text-gray-500 before:content-['by_'] dark:text-gray-400">
-                    <Link href="/about">Matt Galligan</Link>
+                    <Link href="/about">Bigbull</Link>
                   </dd>
                   {/* <dt className="sr-only">Tags</dt>
                   <dd className="before:content-['_•_'] inline text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
