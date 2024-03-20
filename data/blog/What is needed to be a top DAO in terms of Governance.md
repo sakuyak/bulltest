@@ -5,6 +5,10 @@ tags: ['markdown', 'code', 'features']
 draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---
+I asked this question to ChatGPT (3.5) to start a conversation.
+
+ChatGPT Response
+
 To become a top DAO (Decentralized Autonomous Organization) in terms of governance, several key elements and practices are essential. DAOs are blockchain-based entities that operate through smart contracts and decentralized decision-making processes. Here are some factors that contribute to being a top DAO in terms of governance:
 
 Clear Vision and Mission: Define a clear vision, mission, and set of objectives for the DAO. Ensure alignment among members regarding the purpose and goals of the organization.
