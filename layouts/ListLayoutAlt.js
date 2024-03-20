@@ -18,7 +18,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
 
   return (
     <>
-{/*       <div className="mx-auto max-w-3xl divide-y">
+      <div className="mx-auto max-w-3xl divide-y">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="title">{title}</h1>
           <div className="relative max-w-lg">
@@ -44,7 +44,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               />
             </svg>
           </div>
-        </div> */}
+        </div>
         <ul>
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
