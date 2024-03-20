@@ -12,4 +12,6 @@ github: https://github.com/
 
 - [Twitter](https://twitter.com/KapitalCrypto)
 - [Bigbull.eth](https://bigbull.eth)
+- [Zerion wallet](https://app.zerion.io/bigbull.eth)
+- [Linktree](https://linktr.ee/bigbull.eth)
 
