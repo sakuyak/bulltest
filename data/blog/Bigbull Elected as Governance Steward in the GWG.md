@@ -18,10 +18,3 @@ ApeCoin Forum Bigbull Summary -
 
 https://forum.apecoin.com/u/bigbull/summary
 
-Zerion wallet info - 
-
-https://app.zerion.io/bigbull.eth
-
-Linktree -
-
-https://linktr.ee/bigbull.eth
