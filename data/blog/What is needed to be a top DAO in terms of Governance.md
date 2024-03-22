@@ -3,7 +3,7 @@ title: What is needed to be a top DAO in terms of Governance?
 date: '2024-03-20'
 tags: ['markdown', 'code', 'features']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: To become a top DAO (Decentralized Autonomous Organization) in terms of governance, several key elements and practices are essential
 ---
 I asked this question to ChatGPT (3.5) to start a conversation.
 
